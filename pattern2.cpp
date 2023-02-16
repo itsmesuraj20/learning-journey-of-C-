@@ -1,3 +1,12 @@
+/* 
+Write a program in C++/Java to print this pattern
+*****
+*   *
+*   *
+*   *
+*****
+
+*/
 #include<iostream>
 using namespace std;
 
