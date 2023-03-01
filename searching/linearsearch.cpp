@@ -30,7 +30,7 @@ int main()
         cout<<arr[i]<<" ";
     }
     cout<<endl;
-
-    cout<<Linear(arr,n,k);
+    
+    cout<<"Found the key at "<<Linear(arr,n,k)<<" this position"<<endl;
     return 0;
 }
