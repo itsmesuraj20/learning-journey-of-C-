@@ -1,0 +1,3 @@
+Sub array Vs Sub Sequence.
+
+Sub array= Continous Part of an array
