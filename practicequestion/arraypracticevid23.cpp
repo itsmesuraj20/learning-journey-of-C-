@@ -17,10 +17,8 @@ int main()
     for (int i = 0; i < n; i++)
     {
         mx=max(mx,a[i]);
-        
+        cout<<mx<<" "; 
+   
     }
-
-    cout<<mx<<" "; 
-    return 0;   
+       return 0; 
 }
-// corrected on 6 March 23
