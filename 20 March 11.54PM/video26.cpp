@@ -1,4 +1,4 @@
-//Two Dimensional 
+//Two Dimensional array
 #include<bits/stdc++.h>
 using namespace std;
 

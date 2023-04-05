@@ -1,9 +1,9 @@
+//First Repeating Elements Vid 8.5 question 1;
 #include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    int mx=INT_MIN;// alway remeber that max mein hmesha minimum value jaayegi okdokie
     int n;
     cin>>n;
     int a[n];
@@ -12,8 +12,7 @@ int main()
     {
         cin>>a[i];
     }
-
-    const int N=1e6+2;
+    const int N=1e6+2;//Iske constraints change krdoge to it will start working
     int idx[N];
     for (int i = 0; i < N; i++)
     {
@@ -23,7 +22,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
         /* code */
-        if (idx[a[i]]!=-1)  
+        if (idx[a[i]]!=-1)
         {
             /* code */
             minidx= min(minidx,idx[a[i]]);
@@ -42,5 +41,5 @@ int main()
         cout<<minidx+1<<endl;
     }
 
-    return 0;        
+    return 0;
 }
