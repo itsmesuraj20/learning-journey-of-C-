@@ -5,11 +5,11 @@ using namespace std;
 
 int main()
 {
-  char arr[100]="apple";
+  char arr[100]="Suraj";
   int i=0;
     while (arr[i]!='\0')
     {
-        cout<<arr[i]<< " ";
+        cout<<arr[i]<< " "<<endl;
         i++;
     }
     return 0;
