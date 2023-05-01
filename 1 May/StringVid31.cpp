@@ -4,10 +4,9 @@ using namespace std;
 // Compare function mein issue hai 
 int main()
 {
-    string s1="abc";
-    string s2="xyz";
-    int s=s2.compare(s1);
-    cout<<s<<endl;
+    string s1="Hello World This is Suraj Singh";
+    s1.erase(0,5);
+    cout<<s1<<endl;
     return 0;
 }
 
