@@ -1,11 +1,13 @@
 #include<iostream>
-#include<string>
+#include<cstring>
 using namespace std;
-
+// Compare function mein issue hai 
 int main()
 {
-    string s1,s2;
-    cin>>s1>>s2;
-    cout<<s2.compare(s1)<<endl;
+    string s1="abc";
+    string s2="xyz";
+    int s=s2.compare(s1);
+    cout<<s<<endl;
     return 0;
 }
+
