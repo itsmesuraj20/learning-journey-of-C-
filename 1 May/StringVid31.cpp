@@ -1,8 +1,11 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<string>
 using namespace std;
 
 int main()
 {
-    string str="Eastern X HI This is \n Me suraj singh 20 " ;
-    cout<<str; 
+    string s1,s2;
+    cin>>s1>>s2;
+    cout<<s2.compare(s1)<<endl;
+    return 0;
 }
